@@ -1,0 +1,9 @@
+com.mucahitarslan.challenge
+com.mucahitarslan.challenge.controller
+com.mucahitarslan.challenge.dto.mapper
+com.mucahitarslan.challenge.dto.request
+com.mucahitarslan.challenge.dto.response
+com.mucahitarslan.challenge.model
+com.mucahitarslan.challenge.repository
+com.mucahitarslan.challenge.service.abstracts
+com.mucahitarslan.challenge.service.impl
