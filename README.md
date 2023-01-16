@@ -51,8 +51,8 @@ Description for Classes and Interfaces are given below.
 ```http
 POST /api/v1/companies  
   
-curl -d '{"companyName":"Enoca", "address":"Flora Residans Vedat Günyol Caddesi Defne Sokak No:1 Kat:25 Ofis:2501,2502",
-"phoneNumber":"+90 216 266 24 05","email":"contact@enoca.com"}' 
+curl -d '{"companyName":"Enoca", "address":"Flora Residans Vedat Günyol Caddesi Defne Sokak No:1 
+Kat:25 Ofis:2501,2502","phoneNumber":"+90 216 266 24 05","email":"contact@enoca.com"}' 
 -H "Content-Type: application/json" -X POST http://localhost:8099/api/v1/companies
 ```
 
@@ -89,8 +89,8 @@ curl -d "Content-Type: application/json" -X DELETE http://localhost:8099/api/v1/
 ```http
 POST /api/v1/employees  
   
-curl -d '{"firstName":"Mücahit", "lastName":"Arslan","address":"Kocaeli",
-"phoneNumber":"+90 555 555 55 55", "email":"mucahitarslaan@gmail.com","companyId":1}' 
+curl -d '{"firstName":"Mücahit", "lastName":"Arslan","address":"Kocaeli","phoneNumber"
+:"+90 555 555 55 55","email":"mucahitarslaan@gmail.com","companyId":1}' 
 -H "Content-Type: application/json" -X POST http://localhost:8099/api/v1/employees
 ```
 
