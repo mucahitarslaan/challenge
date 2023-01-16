@@ -127,10 +127,10 @@ curl -d "Content-Type: application/json" -X DELETE http://localhost:8099/api/v1/
 
 -  If you send a post and put request for a Company and then send a post and put request for an Employee, the Company and Employee tables will be as follows.
 
-                                                    Company Table
+                                           Company Table
 ![Logo](https://github.com/mucahitarslaan/challenge/blob/main/company-table-image.png?raw=true)
 
-                                                      Employee Table
+                                             Employee Table
 
 ![Logo](https://github.com/mucahitarslaan/challenge/blob/main/employee-table-image.png?raw=true)
   
